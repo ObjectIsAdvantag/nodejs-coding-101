@@ -1,14 +1,15 @@
 {
   "name": "requests",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "3-request.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Stève Sfartz <stsfartz@cisco.com>",
+  "license": "MIT",
   "dependencies": {
+    "axios": "^0.17.1",
     "node-fetch": "^1.7.3",
     "request": "^2.83.0"
   }

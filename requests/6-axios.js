@@ -1,9 +1,7 @@
-const axios = require('axios');
+const axios = require('axios')
  
 axios.get('https://ron-swanson-quotes.herokuapp.com/v2/quotes')
   .then(response => {
-    console.log(response.data);
+    console.log(response.data)
   })
-  .catch(error => {
-    console.log(error);
-  });
+  .catch(console.log)

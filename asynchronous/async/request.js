@@ -20,7 +20,7 @@ async function main() {
     log('After await');
     log(quote);
   } catch (error) {
-    error(error);
+    log(error);
   }
 }
 

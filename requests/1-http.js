@@ -1,3 +1,5 @@
+// Native to all EcmaScript editions, 
+// the http module returns a Stream
 
 const http = require('http');
 

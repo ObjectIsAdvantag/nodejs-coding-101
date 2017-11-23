@@ -1,12 +1,10 @@
-const fetch = require('node-fetch');
+// The node-fetch module mimics the native window.fetch API
+// available natively in Web Browsers.
+const fetch = require('node-fetch')
  
 fetch('https://ron-swanson-quotes.herokuapp.com/v2/quotes')
   .then(response => {
-    return response.json();
+    return response.json()
   })
-  .then(json => {
-    console.log(json);
-  })
-  .catch(error => {
-    console.log(error);
-  });
+  .then(console.log)
+  .catch(console.log)
