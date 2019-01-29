@@ -6,15 +6,11 @@ function log(entry) {
 
 async function main() {
   try {
-    log('Before await')
     const response = await axios.get('https://ron-swanson-quotes.herokuapp.com/v2/quotes')
-    log('After await')
-    log(response.data)
+    return response.data
   } catch (error) {
     log(error)
   }
 }
 
-log('Before main');
-main();
-log('After main');
+main().then(console.log)
