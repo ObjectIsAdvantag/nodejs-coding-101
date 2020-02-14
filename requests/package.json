@@ -9,7 +9,7 @@
   "author": "Stève Sfartz <stsfartz@cisco.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.19.2",
     "node-fetch": "^1.7.3",
     "request": "^2.83.0"
   }
